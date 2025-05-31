@@ -1,0 +1,26 @@
+{
+  "name": "login-by-payment",
+  "version": "0.0.1",
+  "description": "Login by payment proof of concept using Stripe",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy"
+  },
+  "dependencies": {
+    "stripe": "^18.0.0"
+  },
+  "devDependencies": {
+    "wrangler": "^3.0.0"
+  },
+  "keywords": [
+    "authentication",
+    "stripe",
+    "payment",
+    "cloudflare",
+    "workers"
+  ],
+  "author": "Jan Wilmake",
+  "license": "MIT"
+}

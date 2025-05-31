@@ -1,0 +1,4 @@
+STRIPE_SECRET=#Your Stripe secret key
+STRIPE_WEBHOOK_SIGNING_SECRET=#Webhook endpoint secret
+STRIPE_PAYMENT_LINK=#Your Stripe payment link URL
+SESSION_SECRET=#Secret for signing session tokens (minimum 32 chars)

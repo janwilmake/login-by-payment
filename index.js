@@ -148,7 +148,7 @@ async function handleLogin(request, env) {
   const paymentUrl = new URL(env.STRIPE_PAYMENT_LINK);
   paymentUrl.searchParams.set('client_reference_id', tempSessionId);
   
-  return Response.redirect(paymentUrl.toString(), 302);
+  return new Response(null, {status:302,headers:{Location:paymentUrl.toString()}});
 }
 
 /**
